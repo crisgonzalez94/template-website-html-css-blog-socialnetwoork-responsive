@@ -1,0 +1,259 @@
+html {
+   width: 100%;
+   position: relative;
+ }
+
+body{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+   text-decoration: none;
+}
+
+header{
+   margin: 0 auto;
+   background: #2A3132;
+   color: white;
+   z-index: 4;
+}
+
+header a{
+   color: white;
+   
+}
+
+header span a{
+   font-size: 50px;
+}
+
+header menu{
+   margin-top: 10px;
+}
+
+header menu a{
+   background-color: #763626;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+aside{
+   background: #336b87;
+   width: 25%;
+   color: white;
+   position: fixed;
+   right: 0;
+   top: 0;
+   height: 100%;
+   z-index: -1;
+   padding-top: 100px;
+}
+
+/*Forms*/
+aside input[type='email'] , aside input[type='password'] , aside input[type='submit']{
+   display: block;
+   margin: auto;
+   padding: 10px;
+   background: white;
+   border: none;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+
+aside ul{
+   padding: 0;
+   display: block;
+   margin: auto;
+   margin-top: 50px;
+}
+
+aside li{
+   display: block;
+   margin: auto;
+   margin-bottom: 10px;
+   list-style: none;
+   border-bottom: 1px solid white;
+}
+
+/*======================================================================*/
+#article-box{
+   width: 65%;
+   padding-bottom: 200px;
+   padding-left: 5%;
+   padding-right: %5;
+}
+
+h1{
+   text-align: left;
+   margin-left: 2%;
+}
+
+#article-box h3{
+   text-align: left;
+}
+
+article{
+   text-align: left;
+}
+
+#article-box .date{
+   color: grey;
+   font-size: 15px;
+}
+
+#article-box  img{
+   border-radius: 100px;
+   display: block;
+   margin: auto;
+   width: 400px;
+   height: 400px;
+}
+
+#article-box table{
+   background-color: #763626;
+   color: white;
+   border-radius: 5px;
+}
+#article-box table th{
+   text-align: center;
+}
+#article-box table td{
+   text-align: justify;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+}
+
+#article-box input [type='text'] , #article-box input[type='submit'] , #article-box  textarea , #article-box  .caja-input{
+   display: block;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+#article-box input[type='text']{
+   padding: 20px;
+   border-radius: 5px;
+   border: solid;
+   width: 50%;
+}
+
+#article-box textarea{
+   width: 50%;
+   margin: auto;
+   border-radius: 5px;
+   border: solid;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#article-box input[type='file']{
+   padding: ;
+}
+
+#article-box input[type='submit']{
+   padding: 10px;
+   border-radius: 5px;
+   border: solid;
+   width: 50%;
+   background: black;
+   color: white;
+   font-size: 20px;
+   margin: auto;
+}
+
+#article-box iframe{
+   border-radius: 20px;
+   width: 80%;
+}
+
+
+/*======================================================================*/
+footer{
+   background: black;
+   color: #90AFC5;
+   padding-bottom: 30px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+footer a{
+   background: #90AFC5;
+   color: black;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+
+/*========================================================================*/
+/*Responsive*/
+/*========================================================================*/
+
+@media only screen and (max-width: 600px) {
+
+   header menu{
+      margin: auto;
+      padding: 0;
+   }
+
+   header menu a{
+      display: block;
+      padding: 0;
+      padding: 10px;
+      margin-top: 5px;
+   }
+
+
+
+   h1{
+      text-align: center;
+   }
+
+   aside{
+      position: relative;
+      width: 100%;
+      padding-top: 5px;
+   }
+
+   aside ul{
+      padding: 0;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+   }
+   
+   aside li{
+      display: inline-block;
+      margin: auto;
+      margin-bottom: 10px;
+      list-style: none;
+      border: none;
+   }
+
+   #article-box{
+      width: 100%;
+      padding-bottom: 200px;
+      padding-left: 0%;
+      padding-right: 0%;
+   }
+
+   #article-box img{
+      width: 80%;
+      height: 80%;
+      margin: auto;
+   }
+
+   #article-box iframe{
+      border-radius: 20px;
+      width: 80%;
+      height: 80%;
+      display: block;
+      margin: auto;
+   }
+
+   
+}
